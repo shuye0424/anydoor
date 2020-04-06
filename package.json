@@ -1,0 +1,36 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "learn nodejs",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor": "bin/anydoor.js"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "chalk": "^2.4.2",
+    "handlebars": "^4.5.1",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^7.1.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/mocha.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuye0424/anydoor.git"
+  },
+  "author": "shu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuye0424/anydoor/issues"
+  },
+  "homepage": "https://github.com/shuye0424/anydoor#readme"
+}

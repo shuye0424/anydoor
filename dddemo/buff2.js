@@ -1,0 +1,1 @@
+const buf=Buffer.from('This is a test!!');
