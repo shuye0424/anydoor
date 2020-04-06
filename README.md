@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/shuye0424/anydoor.svg?branch=master)](https://travis-ci.org/shuye0424/anydoor)
+
 # anydoor
 learn nodejs
 # 安装
