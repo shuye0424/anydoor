@@ -4,6 +4,6 @@ node_js:
   - "8"
 brancher:
   only:
-   -"dev"
+   - "dev"
 script:
   - "npm run cover"
